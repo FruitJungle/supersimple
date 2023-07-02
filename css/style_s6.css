@@ -1,0 +1,83 @@
+.section6{
+  padding: 18px 0px;
+  margin-top: 10px;
+
+}
+
+.container {
+    font-family: BlinkMacSystemFont, sans-serif;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .title_container_s6 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'SF Buttacup Lettering', sans-serif;
+    color: rgb(34, 31, 31);
+  }
+  
+  .text-button {
+    font-size: 18px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e2ddff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-button:hover {
+    background-color: #c7fffd;
+    border-radius: 5px;
+  }
+  
+  .text-button.clicked {
+    background-color: black;
+    color: white;
+  }
+  
+  .text-button .fas {
+    margin-left: 10px;
+  }
+  
+  .content {
+    font-size: 14px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 97%;
+    margin: auto;
+    padding: 5px;
+    display: none;
+    margin-top: 0px;
+    background-color: lightblue;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+  }
+  
+  .text-button.clicked + .content {
+    max-height: 1000px; /* Adjust the value to match the maximum height of the content */
+    transition: max-height 0.5s ease;
+  }
+  
+  /* Media Queries for Responsive Styles */
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 95%;
+    }
+  
+    .text-button {
+      padding: 10px 15px;
+      text-align: left;
+    }
+  }
+  

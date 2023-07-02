@@ -1,0 +1,91 @@
+.box_section3{
+    width: 40%;
+    background: linear-gradient(135deg, #e8f3ff, #ebfcfe, #ecf5ff);
+    border-radius: 10px;
+    margin: auto;
+}
+.p_s3{
+    padding: 0px 40px 40px;
+}
+.image_s3_box{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 70px;
+
+
+}
+.img_s3{
+    width: 100px;
+    height: 100px;
+}
+.quote{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Manta Style Sans Round DEMO', sans-serif;
+    color: #258fff;
+
+
+}
+.img_lifestyle_s3_box{
+    width: 15%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.img_lifestyle_s3{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.h1_main_title{
+    color: rgb(34, 31, 31);
+    width: 45%;
+    margin: auto; 
+    padding: 60px 0px;
+}
+.h1_p3{
+    width: 45%;
+    margin: auto;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box_section3{
+        width: 93%;
+    }
+    .h1_p3{
+        width: 90%;
+        margin: auto;
+    }
+    .h1_main_title{
+        width: 90%;
+
+    }
+    .img_lifestyle_s3_box{
+        width: 100%;
+        max-width: none;
+
+    }
+    .title_changeyourlifestyle{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: rgb(85, 150, 255);
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    
+}
+
+.gradient-company-name_s3{
+    background: linear-gradient(120deg, #258fff, #0e0161);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;;
+  }

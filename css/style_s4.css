@@ -1,0 +1,69 @@
+.image-container {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-container.active {
+    opacity: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+.title_s4{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.title_changeyourlifestyle{
+    font-family: 'Manta Style Sans Round DEMO', sans-serif;
+    color: #258fff;
+}
+.p_s4{
+    width: 40%;
+    margin: auto;
+
+}
+.img_s4_box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img_s4{
+    width: 30%;
+    height: auto;
+    margin-bottom: -21px;
+}
+
+@media (max-width: 768px) {
+    .title_s4{
+        width: 93%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .p_s4{
+        width: 90%;
+        margin: auto;
+    
+    }
+    .img_s4_box{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .img_s4{
+        width: 100%;
+ 
+    }
+
+}

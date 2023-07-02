@@ -1,0 +1,63 @@
+.footer {
+    background-color: black;
+    color: white;
+    font-family: BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer_column {
+    margin-left: 10px;
+    width: 100%;
+    max-width: 16%;
+}
+
+.title_footer_text {
+    color: rgb(132, 146, 255);
+    font-size: 15px;
+}
+
+.a_footer_text {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.logo-column {
+    flex-basis: 30%;
+}
+
+.copyrith {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer_column {
+        max-width: 50%; /* Adjust the column width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer_column {
+        max-width: 100%; /* Adjust the column width for even smaller screens */
+        margin-left: 20px; /* Remove the left margin */
+    }
+    .logo-column {
+        margin-left: 20px; /* Remove the left margin */
+    }
+    
+}
